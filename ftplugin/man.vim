@@ -18,11 +18,11 @@ nnoremap <buffer><silent> <Plug>(manpager-close) :<C-u>q<CR>
 nnoremap <buffer><silent> <Plug>(manpager-open)             :<C-u>Man<CR>
 xnoremap <buffer><silent> <Plug>(manpager-open)             :<C-u>Man <C-R>=manpager#get_visual_selection()<CR><CR>
 
-nmap <buffer><nowait> K             <Plug>(manpager-open)
+nmap <buffer><nowait> H             <Plug>(manpager-open)
 nmap <buffer><nowait> <CR>          <Plug>(manpager-open)
 nmap <buffer><nowait> <C-]>         <Plug>(manpager-open)
 nmap <buffer><nowait> <2-LeftMouse> <Plug>(manpager-open)
-xmap <buffer><nowait> K             <Plug>(manpager-open)
+xmap <buffer><nowait> H             <Plug>(manpager-open)
 xmap <buffer><nowait> <CR>          <Plug>(manpager-open)
 xmap <buffer><nowait> <C-]>         <Plug>(manpager-open)
 xmap <buffer><nowait> <2-LeftMouse> <Plug>(manpager-open)
